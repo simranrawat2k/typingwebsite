@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+.logo .logo-title{
+    font-family: Wallpoet;
+    font-size: 38px;
+}
+
+@media screen and (max-width:1200px){
+    #root .canvas{
+        width:90%;
+        margin-inline:auto;
+    }
+
+    #root .header, #root .upper-menu, #root .type-box, #root .footer{
+        width: 100%;
+    }
+
+    #root .user-profile, #root .graph-user-page, #root .table{
+        width:100%;
+    }
+
+    #root .user-page{
+        width:80%;
+    }
+
+    #root .user-page .user-profile{
+        height: 8.2rem;
+    }
+
+    #root .user-page .user{
+        width:69%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    #root .user-page .total-tests{
+        width: 29%;
+        font-size: 2.2rem;
+        padding:20px;
+    }
+
+    #root .user .picture svg{
+        transform: scale(4);
+    }
+
+    #root .user .picture{
+        width:25%;
+    }
+
+    #root .user .info{
+        width:75%;
+    }
+
+    #root .user .info{
+        margin-top:0px;
+    }
+}
+
+@media screen and (max-width:940px){
+    #root .canvas{
+        gap:2.8rem;
+        width:95%;
+    }
+
+    #root .user-page .total-tests{
+        font-size: 1.8rem;
+    }
+
+    #root .user-page .user{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    #root .canvas{
+        width:95%;
+        margin-inline:auto;
+    }
+
+    #root .words{
+        font-size: 18px;
+    }
+
+    #root .upper-menu{
+        padding-bottom:20px;
+        font-size:20px;
+    }
+
+    #root .canvas {
+        gap: 2rem;
+    }
+
+/*#root .graph-user-page canvas{
+        width:600px;
+    }*/
+
+    #root .user-page .total-tests{
+        font-size: 16px;
+    }
+
+    #root .user-page .user{
+        font-size: 16px;
+    }
+
+    #root .user-page .user-profile{
+        height: 5.2rem;
+        padding: 10px 2px;
+    }
+
+    #root .user .picture svg{
+        transform: scale(2);
+    }
+
+    #root .info .email {
+        margin-bottom: 4px;
+    }
+    
+    #root .user .picture {
+        width: 18%;
+    }
+
+    #root .user .info {
+        width: 80%;
+        text-align: center;
+    }
+
+    #root .user-page .user {
+        width: 65%;
+    }
+
+    #root .user-page .total-tests {
+        width: 33%;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    #root .canvas{
+        width:90%;
+        margin-inline:auto;
+        padding:0px;
+    }
+
+    #root .header .keyboard{
+        display:none;
+    }
+
+    #root .upper-menu{
+        padding-bottom:20px;
+        font-size:20px;
+    }
+
+    #root .canvas {
+        gap: 2rem;
+    }
+
+    #root .words{
+        font-size: 16px;
+    }
+
+    #root .user-page .user-profile {
+        height: 10.2rem;
+        display: block;
+    }
+
+    #root .user-profile .line-break{
+        display:none;
+    }
+
+    #root .user-page .user {
+        width: 100%;
+        margin: 0px;
+        padding: 0px 15px;
+        border-bottom: 1px solid;
+    }
+
+    #root .user-page .total-tests {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    #root .stats-box{
+        display:block;
+    }
+
+    #root .left-stats{
+        width:100%;
+        text-align: center;
+        margin-bottom:50px
+    }
+
+    #root .right-stats{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+}
