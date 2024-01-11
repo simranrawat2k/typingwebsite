@@ -23,7 +23,7 @@ body{
     //grid-template-rows: auto 1fr auto;
     gap:0.5rem;
     padding: 2rem;
-    width:100vw;
+    width:95vw;
     align-items: center;
     text-align:center;
 }
@@ -140,8 +140,17 @@ body{
 .footer{
     width: 1000px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin-inline: auto;
+}
+
+.footer .reload button{
+    width: 95px;
+    border: none;
+    padding:8px;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer
 }
 
 .themeButton{
@@ -153,7 +162,7 @@ body{
 
 .stats-box{
     display: flex;
-    width: 100%;
+    width: 80%;
     height:auto;
     margin-inline: auto;
     margin-top:50px;
@@ -163,7 +172,7 @@ body{
     width: 30%;
     padding:0px;
     display:flex;
-    text-align: start;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -174,7 +183,7 @@ body{
 
 .title{
     font-size: 20px;
-    color: ${({theme}) => theme.typeBoxText};
+    color: ${({theme}) => theme.typeBoxText}; 
     margin-top:5px;
 }
 
@@ -193,9 +202,10 @@ body{
     margin: auto;
     display: flex;
     height: 15rem;
-    background: ${({theme})=> theme.typeBoxText};
+    background: ${({theme})=> theme.background}; 
     border-radius: 20px;
     padding: 1rem;
+    border: 2px solid ${({theme})=> theme.textColor};
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
